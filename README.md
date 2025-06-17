@@ -1,3 +1,7 @@
+> [!NOTE]  
+> This code is copied from the [Brain-Observatory-Toolbox](https://github.com/MATLAB-Community-Toolboxes-at-INCF/Brain-Observatory-Toolbox) and is only meant to showcase the CI integration achieved by using [MatBox](https://github.com/ehennestad/MatBox). If you are interested in the Brain Observatory Toolbox, please refer to the previous link.
+
+
 # Brain Observatory Toolbox
 
 [![Version Number](https://img.shields.io/github/v/release/ehennestad/bot-demo?label=version)](https://github.com/ehennestad/bot-demo/releases/latest)
