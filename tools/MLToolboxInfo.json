@@ -1,0 +1,14 @@
+{
+    "Namespace" : "bot",
+    "ToolboxOptions": {
+        "Identifier": "4ac30ee0-fca7-4c56-b087-4cab88d8608a",
+        "ToolboxName": "Brain Observatory Toolbox",
+        "AuthorName": "John Doe",
+        "AuthorEmail": "johndoe@example.com",
+        "AuthorCompany": "John Doe Inc.",
+        "Summary": "A MATLAB toolbox for interacting with the Allen Brain Observatory",
+        "Description": "A MATLAB toolbox for accessing and using the neural recording public datasets from the Allen Brain Observatory",
+        "MinimumMatlabRelease": "R2019b",
+        "MaximumMatlabRelease": ""
+    }
+}

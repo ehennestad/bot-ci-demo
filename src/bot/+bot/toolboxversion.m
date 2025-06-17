@@ -4,9 +4,9 @@ function versionStr = toolboxversion()
     %   VERSION = TOOLBOXVERSION() returns the version of the toolbox.
     %
     %   Example:
-    %       version = {{ cookiecutter.namespace_name }}.toolboxversion()
+    %       version = bot.toolboxversion()
     %
-    %   See also {{ cookiecutter.namespace_name }}.toolboxdir
+    %   See also bot.toolboxdir
 
     rootPath = fileparts(fileparts(mfilename('fullpath')));
     contentsFile = fullfile(rootPath, 'Contents.m');
@@ -22,8 +22,8 @@ function versionStr = toolboxversion()
     end
 
     if isempty(matchedStr)
-        error('{{ cookiecutter.namespace_name | upper}}:Version:VersionNotFound', ...
-            'No version was detected for this {{ cookiecutter.toolbox_name }} installation.')
+        error('BOT:Version:VersionNotFound', ...
+            'No version was detected for this Brain Observatory Toolbox installation.')
     end
     versionStr = matchedStr{1};
 end

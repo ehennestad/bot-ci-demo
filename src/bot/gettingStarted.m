@@ -4,29 +4,29 @@ function gettingStarted()
     %   GETTINGSTARTED() opens the getting started guide for the toolbox.
     %
     %   Example:
-    %       {{ cookiecutter.namespace_name }}.gettingStarted()
+    %       bot.gettingStarted()
     %
-    %   See also {{ cookiecutter.namespace_name }}.toolboxdir, {{ cookiecutter.namespace_name }}.toolboxversion
+    %   See also bot.toolboxdir, bot.toolboxversion
 
     % Display welcome message
-    fprintf('Welcome to {{ cookiecutter.toolbox_name }}!\n\n');
-    fprintf('{{ cookiecutter.toolbox_summary }}\n\n');
+    fprintf('Welcome to Brain Observatory Toolbox!\n\n');
+    fprintf('A MATLAB toolbox for interacting with the Allen Brain Observatory\n\n');
     
     % Display version information
-    fprintf('Version: %s\n', {{ cookiecutter.namespace_name }}.toolboxversion());
+    fprintf('Version: %s\n', bot.toolboxversion());
     
     % Display directory information
-    fprintf('Toolbox directory: %s\n\n', {{ cookiecutter.namespace_name }}.toolboxdir());
+    fprintf('Toolbox directory: %s\n\n', bot.toolboxdir());
     
     % Display available functions
     fprintf('Available functions:\n');
-    fprintf('  - {{ cookiecutter.namespace_name }}.toolboxdir\n');
-    fprintf('  - {{ cookiecutter.namespace_name }}.toolboxversion\n');
-    fprintf('  - {{ cookiecutter.namespace_name }}.gettingStarted\n\n');
+    fprintf('  - bot.toolboxdir\n');
+    fprintf('  - bot.toolboxversion\n');
+    fprintf('  - bot.gettingStarted\n\n');
     
     % Display examples
     fprintf('Examples:\n');
-    examplesDir = fullfile({{ cookiecutter.namespace_name }}.toolboxdir(), 'code', 'examples');
+    examplesDir = fullfile(bot.toolboxdir(), 'code', 'examples');
     if exist(examplesDir, 'dir')
         exampleFiles = dir(fullfile(examplesDir, '*.m'));
         if ~isempty(exampleFiles)
@@ -42,7 +42,7 @@ function gettingStarted()
     
     % Display documentation
     fprintf('\nDocumentation:\n');
-    docsDir = fullfile({{ cookiecutter.namespace_name }}.toolboxdir(), 'docs');
+    docsDir = fullfile(bot.toolboxdir(), 'docs');
     if exist(docsDir, 'dir')
         fprintf('  Documentation is available in the docs directory:\n');
         fprintf('  %s\n', docsDir);
