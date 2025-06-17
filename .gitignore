@@ -1,7 +1,5 @@
-# Ignore everything in docs/reports
-docs/reports/*
-
-releases/
+# BOT Data Cache
+Cache/
 
 # Autosave files
 *.asv
@@ -36,3 +34,7 @@ codegen/
 
 # Cloud based storage dotfile
 .MATLABDriveTag
+
+# Keep MATLAB projects local
+*.prj
+resources/
