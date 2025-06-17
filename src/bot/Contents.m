@@ -28,5 +28,3 @@
 %
 %   Get and set toolbox preferences:
 %     bot.util.getPreferences   - Obtain handle to the toolbox preferences object
-
-
