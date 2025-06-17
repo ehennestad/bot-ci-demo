@@ -5,5 +5,7 @@ function testToolbox(varargin)
     if ~isfolder(prefs.CacheDirectory); mkdir(prefs.CacheDirectory); end
     prefs.DialogMode = "Command Window";
 
-    matbox.tasks.testToolbox(projectRootDir, "TestsFolderName", "tests", varargin{:})
+    matbox.tasks.testToolbox(projectRootDir, ...
+        "SourceFolderName", "src", ...
+        "TestsFolderName", "tests", varargin{:})
 end
