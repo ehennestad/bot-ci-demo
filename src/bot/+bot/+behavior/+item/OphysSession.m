@@ -162,8 +162,13 @@ classdef OphysSession < bot.behavior.item.internal.abstract.Item & ...
             % Ensure ID is correct type
             itemId = uint32(round(itemId));
             
-            tableRow = bot.listSessions(obj.DATASET, obj.DATASET_TYPE, ...
-                "Id", itemId, "IncludeBehaviorOnly", true);
+            for bool = [true, false]
+                tableRow = bot.listSessions(obj.DATASET, obj.DATASET_TYPE, ...
+                    "Id", itemId, "IncludeBehaviorOnly", bool);
+                if ~isempty(tableRow)
+                    break
+                end
+            end
         end
     end
 
