@@ -7,7 +7,7 @@
 [![Version Number](https://img.shields.io/github/v/release/ehennestad/bot-demo?label=version)](https://github.com/ehennestad/bot-demo/releases/latest)
 [![View Brain Observatory Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/90900-brain-observatory-toolbox)
 [![MATLAB Tests](.github/badges/tests.svg)](https://github.com/ehennestad/bot-demo/actions/workflows/test-code.yml)
-[![codecov](https://codecov.io/gh/ehennestad/bot-demo/graph/badge.svg?token=YIMNJXWKCQ)](https://codecov.io/gh/ehennestad/bot-ci-demo)
+[![codecov](https://codecov.io/gh/ehennestad/bot-ci-demo/graph/badge.svg?token=YIMNJXWKCQ)](https://codecov.io/gh/ehennestad/bot-ci-demo)
 [![MATLAB Code Issues](.github/badges/code_issues.svg)](https://github.com/ehennestad/bot-demo/security/code-scanning)
 [![Run Codespell](https://github.com/ehennestad/bot-demo/actions/workflows/run-codespell.yml/badge.svg)](https://github.com/ehennestad/bot-demo/actions/workflows/run-codespell.yml)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://gitHub.com/ehennestad/bot-demo/graphs/commit-activity)

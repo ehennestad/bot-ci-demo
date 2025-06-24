@@ -33,7 +33,7 @@ jobs:
       # JSON array of MATLAB versions to test. If empty (default), versions will be
       # automatically determined from MLToolboxInfo.json. Example for manual override:
       # matlab_versions: '["R2023a", "R2023b", "R2024a"]'
-      matlab_versions: '[]'
+      matlab_versions: '["R2023b", "R2024a", "R2024b"]'
       
       # Optional list of MATLAB products to install. Example if adding multiple 
       # products (use ">" and one product per line):
