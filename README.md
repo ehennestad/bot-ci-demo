@@ -6,6 +6,7 @@
 
 [![Version Number](https://img.shields.io/github/v/release/ehennestad/bot-demo?label=version)](https://github.com/ehennestad/bot-demo/releases/latest)
 [![View Brain Observatory Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/90900-brain-observatory-toolbox)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ehennestad/bot-ci-demo&file=examples/VisualCoding_OphysQuickstart.mlx)
 [![MATLAB Tests](.github/badges/tests.svg)](https://github.com/ehennestad/bot-demo/actions/workflows/test-code.yml)
 [![codecov](https://codecov.io/gh/ehennestad/bot-ci-demo/graph/badge.svg?token=YIMNJXWKCQ)](https://codecov.io/gh/ehennestad/bot-ci-demo)
 [![MATLAB Code Issues](.github/badges/code_issues.svg)](https://github.com/ehennestad/bot-demo/security/code-scanning)
